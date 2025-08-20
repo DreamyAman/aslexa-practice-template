@@ -327,3 +327,63 @@
     grid-column: 3;
     grid-row: 2;
 }
+
+.consumer-feedback{
+    height: 70vh;
+    width: 100vw;
+    background-color: #f7f7f7;
+}
+
+.consumer-feedback section:first-child{
+    padding: 6% 0 0% 5%;
+    width: 80%;
+    margin: auto;
+}
+
+.feedbacks{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+
+}
+
+#jasmine{
+    height: 17em;
+    min-width: 16em;
+    background-color: white;
+    padding: 1%;
+    border-radius: 10px;
+    margin: 2%;
+}
+
+
+#jasmine div:first-child img{
+    width: 20%;
+    margin: 5% 5% 5% 0;
+    border-radius: 10px;
+}
+
+#jasmine div:first-child{
+    display: flex;
+    align-items: center;
+    padding: 0% 5% 5% 0%;
+}
+
+#jasmine div:last-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.rating img{
+    width: 80%;
+}
+
+.rating div{
+    width: 30%;
+    display: flex;
+}
