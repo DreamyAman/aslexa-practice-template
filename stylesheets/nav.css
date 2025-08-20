@@ -1,0 +1,68 @@
+nav{
+    width: 100vw;
+    height: 6em;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    width: 23%;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.logo h2{
+    text-transform: lowercase;
+}
+
+.logo img{
+    max-width: 3.5em;
+    margin-right: 0.5em;
+    padding-top: 17%;
+}
+
+.logo .logo-title p{
+    font-size: 0.7em;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+}
+
+
+nav ul{
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 3%;
+    text-transform:capitalize ;
+    list-style: none;
+}
+
+nav ul li a{
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:focus{
+    color: #3936eb;
+}
+nav ul li a:hover{
+    color: #3936eb;
+}
+
+nav button{
+    display: flex;
+    margin: 1% 0.5% ;
+    align-items: center;
+    width: 10rem;
+}
+
+nav button img{
+    display: inline-block;
+    width: 20%;
+    margin-left: 5%;
+}

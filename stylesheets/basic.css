@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to left,#ccc9f8,white);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary-color{
+    color: #3936eb;
+    text-transform: capitalize;
+}
+
+.primary-button{
+    color: white;
+    background-color: #3a36eb;
+    border: 1px solid transparent;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    text-transform: capitalize;
+}
+
+.h-logo{
+    font-size: 3em;
+    text-transform: lowercase;
+}
+
+.secondary-button{
+    color: #3a36eb;
+    background-color: white;
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.heading-h1{
+    font-size: 4.5em;
+    text-transform: capitalize;
+}
+
+.heading-h2{
+    font-size: 3.5em;
+    text-transform: capitalize;
+}
+
+.heading-h3{
+    font-size: 1em;
+    text-transform: capitalize;
+}
+
+.para{
+    color: #9a9ca1;
+    font-size: 1em;
+}
+
+
